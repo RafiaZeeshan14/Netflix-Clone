@@ -1,0 +1,935 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.Header-Content {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/header-image.jpg);
+    padding: 10px 8%;
+    position: relative;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #db0001 !important;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.Headings {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.Main_Heading {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 900;
+    max-width: 650px;
+
+}
+
+.Headings h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* .email-signUp{
+  
+    background: white ;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+} */
+
+/* ****************************************Email-Box-Head***************************** */
+.email_1 {
+    border: 0;
+    outline: 0;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.468);
+    border: 1.2px solid rgba(126, 125, 125, 0.811);
+    backdrop-filter: blur(2px);
+    width: 400px;
+    color: #fff;
+    border-radius: 4px;
+
+
+}
+
+.label_1 {
+    position: absolute;
+    left: 60px;
+    top: 257px;
+    transform-origin: 0 0;
+    transition: transform 0.2s ease-in-out;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(182, 178, 178);
+    
+
+}
+
+.email-signUp button {
+    background: #db0001;
+    color: #fff;
+    font-size: 16px;
+    padding: 17px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+   
+}
+
+/* ****************************************Email-Box-Footer***************************** */
+.emailbox-2 {
+    margin-top: 3%;
+
+}
+
+.email_2 {
+    border: 0;
+    outline: 0;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: 1.2px solid rgba(126, 125, 125, 0.811);
+    backdrop-filter: blur(2px);
+    width: 450px;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: -5%;
+    margin-right: 3px;
+
+}
+
+.label_2 {
+    position: absolute;
+    left: 355px;
+    transform-origin: 0 0;
+    transition: transform 0.2s ease-in-out;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 16px;
+    color: grey;
+}
+
+.email_1:focus+.label_1 {
+    transform: translateY(-1em) scale(0.7);
+}
+
+.email_2:focus+.label_2 {
+    transform: translateY(-1em) scale(0.8);
+}
+
+.emailbox-2 button {
+    background: #db0001;
+    color: #fff;
+    font-size: 16px;
+    padding: 17px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+}
+
+
+.features {
+    font-size: 22px;
+    padding: 50px 12%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0 0 0;
+
+}
+
+.col-heading1 h1 {
+    font-size: 2.8rem;
+    font-weight: bolder;
+    margin-top: -35%;
+}
+
+.col-heading2 h1 , .col-heading3 h1 , .col-heading4 h1  {
+    font-size: 2.8rem;
+    font-weight: bolder;
+
+}
+
+.col-img img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.col-img video {
+
+
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: relative;
+    transform: translate(18%, -145%);
+}
+
+.image-box {
+    border: 1px solid white;
+    display: flex;
+    padding: 10px;
+    border-radius: 8px;
+    width: 55%;
+    position: relative;
+    transform: translateY(-130%);
+    z-index: 1;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+}
+
+.icon-gif {
+    height: 50px;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.image-box img {
+    width: 20%;
+}
+
+.image-box span {
+    flex-direction: column;
+    margin-left: 4%;
+}
+
+.image-box h5,
+h6 {
+    font-size: 15px;
+    margin-top: 18%;
+    line-height: 2px;
+    font-weight: 400;
+}
+
+.image-box h6 {
+    color: #0071eb;
+    font-size: 12px;
+}
+
+/* *****************************Frequently Asked Questions************************88 */
+.faqs {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Faqs-Heading h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0 !important;
+}
+
+.accordion {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 6%;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-color: #fff;
+    --bs-accordion-bg: rgb(45, 45, 45);
+    --bs-accordion-btn-color: color: rgb(255, 255, 255);
+    ;
+    --bs-accordion-active-color: color: rgb(255, 255, 255);
+    ;
+    --bs-accordion-active-bg: rgb(65, 65, 65);
+    --bs-accordion-border-radius: 0;
+    --bs-accordion-icon-color: white;
+    --bs-accordion-border-color: rgb(45, 45, 45);
+    --bs-accordion-inner-border-radius: 0;
+    --bs-accordion-btn-padding-x: 0;
+
+}
+
+/* .accordion-item{
+    padding: 12px;
+   } */
+
+.accordion-button {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.accordion-button:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.accordion-button::after {
+    background-image: url('data:image/svg+xml,<svg width="217px" height="217px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="%23ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M4 12H20M12 4V20" stroke="%23ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>');
+    transition: all 0.5s;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('data:image/svg+xml,<svg fill="%23ffffff" height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.949 511.949" xml:space="preserve" stroke="%23ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><g><g><path d="M271.215,255.894l237.76-237.867c4.053-4.267,3.947-10.987-0.213-15.04c-4.16-3.947-10.667-3.947-14.827,0 l-237.867,237.76L18.308,2.988c-4.267-4.053-10.987-3.947-15.04,0.32c-3.947,4.16-3.947,10.667,0,14.827l237.76,237.76 L3.268,493.655c-4.267,4.053-4.373,10.88-0.213,15.04c4.16,4.16,10.88,4.373,15.04,0.213c0.107-0.107,0.213-0.213,0.213-0.213 l237.76-237.76l237.76,237.76c4.267,4.053,10.987,3.947,15.04-0.213c3.947-4.16,3.947-10.667,0-14.827L271.215,255.894z"></path></g></g></g></svg>');
+}
+
+.accordion-body {
+    border-top: 1px solid #000;
+    text-align: start;
+}
+
+/* **************************Language-Button**************************** */
+.btn-group {
+    margin-left: 5%;
+}
+
+.btn-1 {
+    background-color: transparent !important;
+    border: 1px solid white !important;
+}
+
+.dropdown-item {
+    padding: 0;
+    font-size: 15px;
+
+}
+/* **************************************8Media-Queiries */
+@media screen and (min-width:300px)and (max-width:490px) {
+    .Header-Content {
+        height: 100vh;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .Main_Heading {
+        font-size: 50px;
+        line-height: 45px;
+        margin-top: -12%;
+    }
+
+    .Headings h3 {
+        margin-top: 5px;
+        font-size: 17px;
+    }
+
+    .Headings p {
+        font-size: 15px;
+    }
+
+    .email_1 {
+        width: 300px;
+    }
+
+    .label_1 {
+        left: 7px;
+        top: 265px;
+    }
+
+    .email-signUp button {
+        margin-top: 5%;
+        font-size: 15px;
+        padding: 16px;
+        border: 0;
+        outline: 0;
+        border-radius: 4px;
+       
+    }
+
+    .features {
+        padding: 0;
+        text-align: center;
+    }
+
+    .row1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-heading1{
+       padding-left: 6% ;
+    }
+    .col-heading1 h1 {
+        font-size: 2.2rem;
+        margin-top: 0%;
+      
+    }
+
+    .col-heading1 p , .col-heading2 p , .col-heading3 p  , .col-heading4 p{
+        font-size: 15px;
+    }
+    .col-img video{
+        transform: translate(-0%, -145%);
+    }
+    .row2,
+    .row4 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mob-img {
+        width: 90%;
+    }
+    .image-box {
+        width: 85%;
+        margin-top: 3%;
+        border-radius: 18px;
+        border: 2px solid rgba(128, 128, 128, 0.7);
+        box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    }
+
+    .image-box img {
+        width: 12%;
+        height: auto;
+    }
+
+    .row2-heading {
+        margin-top: -1%;
+    }
+    .row2-heading h5{
+        font-size: 12px;
+    }
+    .icon-gif {
+        margin-left: 30%;
+        height: 50px;
+        width: 50px;
+    }
+    .col-heading2{
+        padding-left: 6%;
+    }
+    .col-heading2 h1,
+    .col-heading3 h1 {
+        font-size: 2.2rem;
+    }
+
+    .row3 {
+        display: flex;
+        flex-direction: column;
+        padding: 10% 5%;
+    }
+    .col-heading4{
+        padding-left: 6%;
+    }
+    .col-heading4 h1{
+        font-size: 2.2rem;
+    }
+    
+    .kid-img{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .foot-p h5{
+     font-size: medium;
+    }
+    .emailbox-2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .email_2 {
+        margin-top: 5%;
+        width: auto;
+        margin-left: 1%;
+    }
+
+    .label_2 {
+        margin-top: 9%;
+        left: 7%;
+    }
+    .Faqs-Heading h1{
+        font-size: 2rem;
+    }
+    .emailbox-2 button {
+        margin: 3% 0 5% 27%;
+        width: 150px;
+    }
+    .hr-line{
+        margin-top: -7%;
+    }
+   
+}
+
+@media screen and (min-width:491px)and (max-width:640px) {
+    .logo {
+        width: 150px;
+    }
+
+    .Main_Heading {
+        font-size: 60px;
+        line-height: 55px;
+        margin-top: 7%;
+    }
+
+    .Headings h3 {
+        margin-top: 5px;
+    }
+    .email_1 {
+        width: 450px;
+    }
+
+    .label_1 {
+        left: 8px;
+        top: 390px;
+    }
+
+    .email-signUp button {
+        margin: 3% 0 5% 0;
+    }
+    .features {
+        padding: 0;
+        text-align: center;
+    }
+    .row1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-heading1 , .col-heading2 , .col-heading3 , .col-heading4{
+        padding-left: 5%;
+    }
+    .col-heading1 h1 , .col-heading2 h1 , .col-heading3 h1 , .col-heading4 h1 {
+        font-size: 2.6rem;
+        margin-top: 0%;
+    }
+
+    .col-heading1 p , .col-heading2 p , .col-heading3 p , .col-heading4 p{
+        font-size: 18px;
+    }
+    .col-img video{
+        transform: translate(-0%, -145%);
+    }
+    .hr-line{
+        margin-top: -6%;
+    }
+
+    .row2,
+    .row4 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mob-img {
+        width: 90%;
+    }
+    .image-box {
+        width: 80%;
+        margin-top: 3%;
+        border-radius: 18px;
+        border: 2px solid rgba(128, 128, 128, 0.7);
+        box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    }
+
+    .image-box img {
+        width: 12%;
+        height: auto;
+    }
+    .row2-heading h5{
+        
+        margin-left: -1%;
+    }
+
+    .icon-gif {
+        margin-left: 40%;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .row3 {
+        display: flex;
+        flex-direction: column;
+        padding: 15% 5%;
+    }
+    .kid-img{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .email_2 {
+        width: 300px;
+    }
+
+    .label_2 {
+        left: 5%;
+    }
+}
+@media  screen and (min-width:520px) and (max-width:640px){
+
+    .icon-gif {
+        justify-content: flex-end;
+        height: 50px;
+        width: 20px;
+    }
+    .email_2 {
+        width: 325px;
+    }
+
+    .label_2 {
+        left: 8%;
+    }
+}
+    
+
+
+@media screen and (min-width:641px)and (max-width:740px) {
+    .logo {
+        width: 150px;
+    }
+
+    .Main_Heading {
+        font-size: 60px;
+        line-height: 55px;
+        margin-top: 7%;
+    }
+
+    .Headings h3 {
+        margin-top: 5px;
+    }
+
+    .email-signUp {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .email_1 {
+        width: 400px;
+        padding: 0;
+        margin-bottom: 5%;
+        margin-top: 3%;
+
+    }
+
+    .label_1 {
+        left: 8px;
+        top: 360px;
+    }
+
+    .email-signUp button {
+        margin: 3% 0 5% 2%;
+        width: 150px;
+    }
+     
+    .features {
+        padding: 0;
+        text-align: center;
+    }
+    .row1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-heading1 , .col-heading2 , .col-heading3, .col-heading4{
+        padding-left: 5%;
+    }
+    .col-heading1 h1 , .col-heading2 h1 , .col-heading3 h1 , .col-heading4 h1{
+        font-size: 2.6rem;
+        margin-top: 0%;
+    }
+
+    .col-heading1 p  , .col-heading2 p , .col-heading3 p , .col-heading4 p{
+        font-size: 22px;
+    }
+    .col-img video{
+        transform: translate(-0%, -145%);
+    }
+    .hr-line{
+        margin-top: -6%;
+    }
+   
+    .row2,
+    .row4 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mob-img {
+        width: 90%;
+    }
+    .image-box {
+        width: 75%;
+        margin-top: 3%;
+        border-radius: 18px;
+        border: 2px solid rgba(128, 128, 128, 0.7);
+        box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    }
+
+    .image-box img {
+        width: 12%;
+        height: auto;
+    }
+    .row2-heading h5{
+        font-size: medium;   
+        margin-left: -1%;
+    }
+
+    .icon-gif {
+        margin-left: 40%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .row3 {
+        display: flex;
+        flex-direction: column;
+        padding: 15% 5%;
+    }
+    .kid-img{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .email_2 {
+        width: 350px;
+    }
+
+    .label_2 {
+        left: 15%;
+    }
+    .accordion{
+        width: 100%;
+        margin-left: -3%;
+    }
+}
+
+@media screen and (min-width:741px) and (max-width:959px) 
+{
+    .logo {
+        width: 150px;
+    }
+    .Main_Heading {
+        font-size: 60px;
+        line-height: 65px;
+        margin-top: 6%;
+    }
+    .Headings h3 {
+        margin-top: 7px;
+    }
+    .email-signUp {
+        display: flex;
+        flex-direction: row;
+    }
+    .email_1
+     {
+        width: 500px;
+        padding: 0;
+        margin-bottom: 5%;
+        margin-top: 3%;
+    }
+
+    .label_1 
+    {
+        left: 8px;
+        top: 305px;
+    }
+
+    .email-signUp button
+     {
+        margin: 3% 0 5% 1.8%;
+        width: 150px;
+    }
+    .features
+     {
+        padding: 0;
+        text-align: center;
+    }
+    .row1 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-heading1 , .col-heading2 , .col-heading3  , .col-heading4 {
+        padding-left: 6%;
+
+    }
+    .col-heading1 h1 , .col-heading2 h1 , .col-heading3 h1 , .col-heading4 h1     {
+        font-size: 2.8rem;
+        margin-top: 0%;
+    }
+
+    .col-heading1 p , .col-heading2 p , .col-heading3 p , .col-heading4 p 
+    {
+        padding: 4%;
+        font-size: 24px;
+    }
+    .col-img video
+    {
+        transform: translate(-0%, -145%);
+    }
+    .hr-line
+    {
+        margin-top: -6%;
+    }
+   
+    .row2,
+    .row4
+     {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mob-img
+     {
+        width: 90%;
+    }
+    .image-box
+     {
+        width: 75%;
+        margin-top: 3%;
+        border-radius: 18px;
+        border: 2px solid rgba(128, 128, 128, 0.7);
+        box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    }
+
+    .image-box img 
+    {
+        width: 12%;
+        height: auto;
+    }
+    .row2-heading h5
+    {
+        font-size: 20px;   
+        margin-left: -1%;
+    }
+    .row2-heading h6
+    {
+        font-size: 15px;
+    }
+
+    .icon-gif
+     {
+        margin-left: 40%;
+        height: 50px;
+        width: 50px;
+    }
+    .row3  h1{
+        margin-top: -5%;
+    }
+    .row3 
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 15% 5%;
+    }
+    .kid-img
+    {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .email_2 
+    {
+        width: 400px;
+    }
+
+    .label_2 
+    {
+        left: 21%;
+    }
+   
+}
+
+
+ @media screen and (min-width:960px) and (max-width:1100px)
+{
+    .Main_Heading {
+        font-size: 60px;
+        line-height: 65px;
+        margin-top: 6%;
+    }
+    .Headings h3 {
+        margin-top: 7px;
+    }
+    .email-signUp {
+        display: flex;
+        flex-direction: row;
+    }
+    .email_1
+     {
+        width: 500px;
+        padding: 0;
+        margin-bottom: 5%;
+        margin-top: 3%;
+    }
+
+    .label_1 
+    {
+        left: 8px;
+        top: 305px;
+    }
+
+    .email-signUp button
+     {
+        margin: 3% 0 5% 1.8%;
+        width: 150px;
+    }
+    .row2-heading h5{
+        font-size: 11px;
+    }
+    .image-box img{
+        width: 20%;
+    }
+    .icon-gif{
+        width: 10%;
+        height: auto;
+        
+    }
+    .image-box
+     {
+        width: 65%;
+        margin-top: 3%;
+        border-radius: 18px;
+        border: 2px solid rgba(128, 128, 128, 0.7);
+        box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    }
+    .col-heading3 h1{
+        width: 50%;
+        font-size: 3rem;
+    }
+    .col-heading3 p{
+        width: 50%;
+    }
+    /* .email_2{
+        width: auto;
+    } */
+    .label_2{
+        left: 20%;
+    }
+} 
+@media screen and (min-width:1101px) and (max-width:1259px){
+    .row2-heading h5{
+        font-size: 12px;
+    }
+    .icon-gif{
+        width: 15px;
+    }
+}
+
+
+   
+  
