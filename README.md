@@ -1,7 +1,7 @@
 # Netflix Clone
 
 ## Live Demo
-https://mynxclone-1.netlify.app/
+https://mynetflix-clone01.vercel.app/
 
 ## Description
 The Netflix Clone project is a front-end web application that replicates the visual design and layout of the Netflix interface without the actual functionality.
